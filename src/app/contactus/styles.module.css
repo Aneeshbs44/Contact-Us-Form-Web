@@ -1,0 +1,97 @@
+/* Common styles */
+.container {
+  background-color: white;
+  padding-left: 32px;
+  height: 100vh;
+  margin-top: 0px;
+}
+
+.text {
+  color: black;
+  font-weight: bold;
+  margin: 0 15px auto;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.form {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.input {
+  height: 40px;
+  border-width: 1px;
+  padding: 10px;
+  margin: 20px;
+  width: 400px;
+  margin-left: 10px;
+  color: black;
+  background-color: #eef1f6;
+}
+
+.inputBox {
+  height: 90px;
+  border-width: 1px;
+  padding: 10px;
+  color: black;
+  margin: 20px;
+  width: 400px;
+  position: relative;
+  margin-left: 10px;
+  background-color: #eef1f6;
+  line-height: 1.5;
+}
+
+.error {
+  border-color: red;
+}
+
+.contact {
+  margin-top: 5px;
+  font-size: large;
+  color: black;
+  margin-left: 10px;
+}
+
+.contactNo {
+  margin-top: 15px;
+  font-weight: bold;
+  color: black;
+  margin-left: 10px;
+}
+
+.time {
+  margin-top: 20px;
+  color: black;
+  margin-left: 10px;
+}
+
+.buttonSubmit {
+  margin-top: 20px;
+  border-radius: 30px;
+  background-color: #073a96;
+  padding: 15px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 400px;
+  margin-left: auto;
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 1024px) {
+  .container {
+    padding-left: 16px;
+  }
+  
+  .form {
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  .input,
+  .inputBox,
+  .buttonSubmit {
+    width: 95%; /* Make elements full width */
+  }
+}
