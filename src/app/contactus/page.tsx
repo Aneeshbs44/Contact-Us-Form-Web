@@ -120,7 +120,7 @@ const ContactForm: React.FC = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.text}>Contact Us</h1>
-      {formError && <p className={styles.error}>All fields are required</p>}
+      {/* {formError && <p className={styles.error}>All fields are required</p>} */}
       <div className={styles.form}>
         <input
           className={`${styles.input} ${emailError ? styles.error : ''}`}
